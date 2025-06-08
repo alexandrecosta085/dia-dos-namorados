@@ -1,0 +1,163 @@
+/* === RESET E CONFIGURAÇÕES BASE === */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #fff0f5;
+  color: #333;
+}
+
+/* === CABEÇALHO PRINCIPAL === */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: #ffb6c1;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+/* === SEÇÃO PADRÃO COM CENTRALIZAÇÃO === */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* === TIMELINE (LINHA DO TEMPO) === */
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 3px solid #ff69b4;
+}
+
+.event {
+  margin-bottom: 30px;
+}
+
+.event h3 {
+  margin: 0 0 5px;
+  color: #d63384;
+}
+
+/* === GALERIA DE FOTOS (2 linhas, 4 colunas) === */
+.gallery {
+  background-color: #ffdfe8;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas por linha */
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.gallery img {
+  width: 100%;
+  max-height: 250px;
+  height: auto;
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo adicional ao passar o mouse */
+.gallery a:hover {
+  transform: scale(1.05);
+}
+
+/* === BOTÕES PADRÃO === */
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* === MENSAGENS E ÁREAS ESCONDIDAS === */
+.hidden-story,
+.hidden-message {
+  display: none; /* Esconde os elementos até serem ativados */
+}
+
+/* === SEÇÃO DO TEMPORIZADOR === */
+.timer-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #fff0f5;
+  color: #e91e63;
+}
+
+.timer-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.timer-display {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: #fff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === MENSAGEM FINAL === */
+.final-message {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: "Arial", sans-serif;
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #eee;
+  margin: 0 12px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff4081;
+}
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 colunas por linha em celulares grandes */
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .timer-display {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+  }
+}

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Importação do CSS do Fancybox para galeria de imagens -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <!-- Importação do CSS do Font Awesome (CDN) para usar os ícones das redes sociais -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Ícones de favicon para diferentes dispositivos e tamanhos -->
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Metatags Open Graph para compartilhamento nas redes sociais -->
+    <meta
+      property="og:title"
+      content="Feliz Dia dos Namorados - Lorena e Alexandre"
+    />
+    <meta property="og:description" content="Nossa história de amor..." />
+    <meta property="og:image" content="/img/0.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Descrição do site para motores de busca -->
+    <meta
+      name="description"
+      content="Site dedicado ao nosso amor, nossa história, fotos e música para comemorar o Dia dos Namorados."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Feliz Dia dos Namorados - Lorena e Alexandre</title>
+
+    <!-- Link para seu CSS customizado -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Botão para tocar a música de fundo -->
+      <button id="play-music" class="music-btn">Tocar Música</button>
+      <!-- Elemento de áudio para a música de fundo -->
+      <audio id="bg-music" loop>
+        <source src="/music/music.mp3" type="audio/mpeg" />
+      </audio>
+
+      <h1>Feliz Dia dos Namorados, meu amor! ❤️</h1>
+      <p>Clique abaixo para ver nossa história</p>
+      <button id="btn-story" type="button">Ver nossa história</button>
+    </header>
+
+    <!-- Seção da história, inicialmente oculta -->
+    <section id="story" class="hidden-story">
+      <h2>NOSSA HISTORIA</h2>
+      <!-- Conteúdo da linha do tempo da história do casal -->
+      <div class="timeline">
+        <div class="event">
+          <h3>🌟 QUANDO NOS CONHECEMOS</h3>
+          <p>Faz bastante tempo... mais de 10 anos.</p>
+          <p>
+            A gente mantinha contato pelas redes sociais, trocando muitas
+            mensagens. Chegamos até a “namorar” por mensagens — não sei se você
+            lembra disso? 😂 Mas você sempre sumia! Passávamos um tempo sem nos
+            falar e, de repente, voltávamos de novo. E assim foi durante anos...
+            sem beijo, sem toque, só mensagens, fotos, vídeos, áudios — e
+            algumas aparições rápidas em terminais no meio da correria do dia a
+            dia.
+          </p>
+          <p>
+            Sempre que voltávamos a conversar, eu te chamava para sair, te
+            convidava para vários lugares — e você nunca ia! Hahaha. Eu pensava:
+            “Acho que ela não gosta muito de mim...”. Mas mesmo assim,
+            continuávamos ali. Eu sempre dizia que não ia te pressionar, que
+            quando você se sentisse confortável, a gente sairia. Até que...
+            finalmente marcamos um cinema, numa terça-feira.
+          </p>
+          <p>
+            Lembro que fiquei super ansioso, meio inseguro. Eu não tinha muito
+            dinheiro na época e fiquei com medo de não conseguir bancar tudo,
+            mas aceitei mesmo assim. Era a chance — depois de 10 anos. Mas
+            acabou não dando certo. Fiquei triste, chateado... achei que a culpa
+            fosse minha. Pensei que talvez eu tivesse te assustado, ou que você
+            tivesse percebido que eu não era legal o suficiente. Várias coisas
+            passaram pela minha cabeça.
+          </p>
+          <p>
+            Mas aí, a gente marcou de novo. Dessa vez, tentei me manter mais
+            tranquilo, sem criar expectativas... Bom, isso durou pouco 😅.
+            Fiquei ansioso de novo, claro. Eu teria que te buscar em casa, e nem
+            sabia exatamente onde era! Sempre achei que você morava naquela rua
+            onde aquele sr. vende calzone hahaha.
+          </p>
+          <p>
+            Fiquei nervoso quando você disse que eu teria que falar com sua mãe,
+            e também com o horário que precisava te levar de volta. Mas fui
+            mesmo assim! Coloquei o endereço no Waze, cheguei achando que estava
+            certo — e parei do outro lado da rua 😂
+          </p>
+          <p>Mas ali estava você. Comigo.</p>
+          <p>Dia 3 de agosto de 2024 — o início de tudo.</p>
+          <p>
+            Fomos ao cinema, e deu tudo certo. Voltamos antes do horário
+            combinado... Os detalhes? Bom, esse é um site público, então não
+            posso falar muito 😏 Mas não que a gente não goste de uma rua
+            escura, né? 😈
+          </p>
+        </div>
+        <div class="event">
+          <h3>💋 NOSSO PRIMEIRO BEIJO</h3>
+          <p>Também faz parte daquele mesmo dia em que finalmente saímos.</p>
+          <p>
+            Dia 3 de agosto de 2024. Já era quase meia-noite, e estávamos no
+            carro, depois do cinema.
+          </p>
+          <p>
+            Lembro que decidi não te beijar nem durante o filme, nem no caminho
+            de ida ou volta. Mas por quê? Eu estava inseguro... não sabia se
+            ainda sabia beijar. Tinha medo de ser ruim, de estragar tudo, de
+            acabar com nossa chance ali mesmo. Eu precisava de um momento mais
+            confortável, mais tranquilo — em que eu me sentisse pronto. Com
+            calma, ia dar certo.
+          </p>
+          <p>
+            Acabou que a gente estava ali, na frente da sua casa. Não era o
+            lugar mais confortável, estávamos de lado no carro. Pensei em sair,
+            em te chamar para fora e ficarmos em pé, mas bateu o medo de você se
+            inclinar para sair... e eu perder o momento. Ficamos um tempinho
+            conversando... e, de repente, alguns segundos em silêncio, nos
+            olhando.
+          </p>
+          <p>
+            Foi ali. Naquele instante, apaguei todos os pensamentos — os
+            milhares de ideias malucas e negativas que sempre passam pela minha
+            cabeça — e pensei: "Tem que ser agora. Vai ser agora. E vai dar
+            certo."
+          </p>
+          <p>
+            Hoje em dia, tento ser mais positivo. Você sabe disso. Mudei
+            bastante — e tento te ajudar com isso também. Mesmo que você sinta
+            tudo de forma intensa, eu também sinto. Tanto quanto. Mas me diz:
+            como continuar sendo negativo, se quando fui mais positivo, tudo deu
+            certo?
+          </p>
+          <p>
+            Eu pensei: “Vai dar certo. Vai ser bom. Ela vai gostar.” E foi. Foi
+            incrível. Foi bom, ótimo, maravilhoso. Nosso primeiro beijo. E
+            depois, muitos outros beijos. Muitos mesmo.
+          </p>
+        </div>
+        <div class="event">
+          <h3>💍 O PEDIDO DE NAMORO</h3>
+          <p>Finalmente chegamos nesse dia.</p>
+          <p>
+            Eu já vinha pensando nisso há alguns dias… planejando qual seria o
+            melhor momento, o melhor lugar, o jeito certo de fazer. Mas a
+            verdade é: eu sou péssimo com planejamentos — você já deve ter
+            percebido 😂 Eu ficava idealizando mil cenários, mas nada parecia
+            grande o suficiente, bonito o suficiente, emocionante o suficiente.
+          </p>
+          <p>
+            Até que decidimos ir à praia, à noite. Eu, você… e o Natan — meu
+            melhor amigo e vela oficial daquele momento kkk. Ele foi nossa
+            testemunha.
+          </p>
+          <p>
+            E ali estávamos nós. Tudo estava muito bom. Não era a data mais
+            redonda do calendário.
+          </p>
+          <p>Dia 21 de setembro de 2024, um número ímpar.</p>
+          <p>
+            “Por que não no dia 20?”, eu até pensei. Mas a verdade é que não era
+            sobre o dia, nem o lugar, nem o número. Era sobre nós dois. Você e
+            eu, decidindo viver a vida juntos.
+          </p>
+          <p>
+            Lembro que fomos andando até perto da água. Olhei pra você... e fiz
+            o pedido. Fiquei nervoso, claro — como sempre. Ansioso pela
+            resposta.
+          </p>
+          <p>
+            Sei que você respondeu rápido. Mas na minha cabeça, demorou uma
+            eternidade. A ansiedade fez aquele momento durar muito mais do que
+            alguns segundos.
+          </p>
+          <p>
+            Mas você disse sim. E eu me senti leve. Aliviado. Feliz por ter dado
+            certo mais uma vez. Feliz porque você aceitou viver tudo isso comigo
+            — não só dali pra frente, mas também tudo o que já vínhamos vivendo
+            até ali.
+          </p>
+          <p>
+            Desde então, a vida tem outra cor. Não é mais nublada e escura como
+            antes.
+          </p>
+          <p>
+            Eu sei… Às vezes é difícil. A mente tenta sabotar, surgem
+            pensamentos tristes, dúvidas. Às vezes sou eu mesmo quem te machuca,
+            com algo que disse ou deixei de dizer, com algo que fiz ou deixei de
+            fazer. Mas se esses momentos fazem parte do nosso caminho, então a
+            gente vai passar por todos juntos.
+          </p>
+          <p>Eu te amo tanto. Tanto, que acho que você nem imagina a metade.</p>
+          <p>
+            Vamos realizar tudo que planejamos (você planeja bem melhor que eu,
+            aliás). Você é o meu pensamento positivo. E juntos, vamos tornar
+            isso realidade, dia após dia.
+          </p>
+          <p>Quero passar a minha vida toda com você.</p>
+          <p>EU TE AMO, MUITOOO!.</p>
+        </div>
+        <div class="event">
+          <h3>✈️ NOSSA PRIMEIRA VIAGEM (BONUS)</h3>
+          <p>Um pequeno bônus… nossa primeira viagem juntos.</p>
+          <p>
+            E sim, o Natan foi junto. Era pra ele ter levado alguém, mas acabou
+            não dando certo — então ele foi como oficialmente nossa vela 😂 nos
+            te amos Natan.
+          </p>
+          <p>
+            A gente sempre está fazendo planos, anotando lugares que queremos
+            conhecer. Ainda não viajamos tanto quanto gostaríamos, mas naquele
+            fim de ano, a vontade bateu forte.
+          </p>
+          <p>
+            O Natan (e a pessoa que iria com ele, na época) deram aquele
+            empurrãozinho pra viagem sair do papel. Ele queria muito ir pra
+            Guaramiranga. Começamos a planejar, pensar no carro — porque o meu
+            estava meio sofrido e não ia subir serra com segurança.
+          </p>
+          <p>
+            Depois de muitos “vai e vem”, mudamos o destino: agora seria
+            Beberibe.
+          </p>
+          <p>
+            Passamos alguns dias procurando hospedagem… até que você encontrou
+            um Airbnb perfeito! Fechamos tudo, marcamos a data, estava tudo
+            pronto.
+          </p>
+          <p>
+            Mas aí… a acompanhante do Natan desistiu. E no fim, fomos só nós
+            três, numa sexta-feira à noite.
+          </p>
+          <p>Dia 13 de dezembro de 2024. Nossa primeira viagem.</p>
+          <p>
+            Foi tudo incrível. Conhecemos lugares lindos, comemos na praça da
+            cidade, jogamos Uno até altas horas da madrugada. Andamos de jangada
+            (não sei de quem foi a ideia, mas curti — mesmo achando que ia
+            morrer kkk).
+          </p>
+          <p>
+            E o mais especial: nossas primeiras noites dormindo juntinhos.
+            Agarrados. Comigo roncando no teu ouvido 😅
+          </p>
+          <p>
+            Esse relato é breve, só um bônus mesmo… Mas já estou ansioso pelas
+            próximas viagens, que com certeza virão.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção da galeria de momentos com Fancybox -->
+    <section id="moments" class="hidden-story">
+      <h2>💑 NOSSOS MOMENTOS</h2>
+      <!-- Galeria de fotos com links para abrir em lightbox -->
+      <div class="gallery">
+        <a
+          href="/img/0.jpg"
+          data-fancybox="gallery"
+          data-caption="PEDIDO DE NAMORO"
+        >
+          <img src="/img/0.jpg" alt="Pedido de Namoro" />
+        </a>
+
+        <a
+          href="/img/1.jpg"
+          data-fancybox="gallery"
+          data-caption="BAR DA VARJOTA"
+        >
+          <img src="/img/1.jpg" alt="Jantar no Bar da Varjota" />
+        </a>
+
+        <a
+          href="/img/2.jpg"
+          data-fancybox="gallery"
+          data-caption="BAR EM BEBERIBE"
+        >
+          <img src="/img/2.jpg" alt="Jantar no Bar em Beberibe" />
+        </a>
+
+        <a
+          href="/img/3.jpg"
+          data-fancybox="gallery"
+          data-caption="SAMBA DO VILA"
+        >
+          <img src="/img/3.jpg" alt="Noite no Samba do Vila" />
+        </a>
+
+        <a
+          href="/img/4.jpg"
+          data-fancybox="gallery"
+          data-caption="SEU ANIVERSÁRIO"
+        >
+          <img src="/img/4.jpg" alt="Primeira foto no seu ANIVERSÁRIO" />
+        </a>
+
+        <a
+          href="/img/5.jpg"
+          data-fancybox="gallery"
+          data-caption="SEU ANIVERSÁRIO 2"
+        >
+          <img src="/img/5.jpg" alt="Segunda foto no seu ANIVERSÁRIO" />
+        </a>
+
+        <a
+          href="/img/6.jpg"
+          data-fancybox="gallery"
+          data-caption="LABIRINTO DAS FALÉSIAS EM BEBERIBE"
+        >
+          <img src="/img/6.jpg" alt="Labirinto das Feleésias em Beberibe" />
+        </a>
+
+        <a
+          href="img/7.jpg"
+          data-fancybox="gallery"
+          data-caption="ELEVADOR DO JAPAMANIA"
+        >
+          <img src="/img/7.jpg" alt="Foto no elevador do JapaMania" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Seção com mensagem final oculta inicialmente -->
+    <section id="final-message" class="final-message hidden-story">
+      <h2>💌 UM RECADO PARA VOCÊ</h2>
+      <button id="btn-message" type="button">Ver mensagem</button>
+      <p id="mensagem" class="hidden-message">
+        Meu amor, cada momento ao seu lado é um presente. Obrigado por me fazer
+        tão feliz. Que venham muitos e muitos dias dos namorados ao seu lado! EU
+        TE AMO, MUITOO!! ❤️
+      </p>
+    </section>
+
+    <!-- Seção do timer que mostra quanto tempo vocês estão juntos -->
+    <section class="timer-section">
+      <h2>⏳ Estamos juntos há...</h2>
+      <div id="timer" class="timer-display"></div>
+    </section>
+
+    <!-- FOOTER DO SITE -->
+    <footer>
+      <!-- Texto de agradecimento e crédito -->
+      <p>Feito com ❤️ por Alexandre para Lorena</p>
+      <p>&copy; 2025 - Todos os momentos guardados com amor</p>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/xandy_costa1"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://github.com/alexandrecosta085"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alexandre-costa085"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <!-- Fancybox script para galeria -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <!-- script customizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
