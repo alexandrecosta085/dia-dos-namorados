@@ -38,8 +38,9 @@ Créditos
 Desenvolvido por Alexandre Costa.
 
 Contato
-Instagram: xandy_costa1
 
-GitHub: alexandrecosta085
+[Instagram](https://www.instagram.com/xandy_costa1)
 
-LinkedIn: alexandre-costa085
+[GitHub:](https://github.com/alexandrecosta085)
+
+[LinkedIn:](https://www.linkedin.com/in/alexandre-costa085)
