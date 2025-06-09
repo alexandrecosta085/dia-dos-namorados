@@ -22,8 +22,8 @@ Feito com carinho por Alexandre para Lorena.
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- [Fancybox](https://fancyapps.com/docs/ui/fancybox/) para galeria de imagens
-- Font Awesome para ícones das redes sociais
+- [Fancybox](https://fancyapps.com/fancybox/) para galeria de imagens
+- [Font Awesome](https://fontawesome.com/) para ícones das redes sociais
 
 ---
 
@@ -34,10 +34,13 @@ Feito com carinho por Alexandre para Lorena.
    git clone https://github.com/seu-usuario/seu-repositorio.git
    ```
 
-Créditos
+---
+
+### Créditos
+
 Desenvolvido por Alexandre Costa.
 
-Contato
+### Contato
 
 [Instagram](https://www.instagram.com/xandy_costa1)
 
