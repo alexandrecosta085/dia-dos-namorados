@@ -36,14 +36,10 @@ Feito com carinho por Alexandre para Lorena.
 
 ---
 
-### Créditos
+## Créditos
 
 Desenvolvido por Alexandre Costa.
 
-### Contato
+ Contato:
 
-[Instagram](https://www.instagram.com/xandy_costa1)
-
-[GitHub:](https://github.com/alexandrecosta085)
-
-[LinkedIn:](https://www.linkedin.com/in/alexandre-costa085)
+[Instagram](https://www.instagram.com/xandy_costa1) | [GitHub](https://github.com/alexandrecosta085) | [LinkedIn](https://www.linkedin.com/in/alexandre-costa085)
